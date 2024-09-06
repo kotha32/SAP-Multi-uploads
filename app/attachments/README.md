@@ -10,7 +10,7 @@
 |**Service URL**<br>/attachments/
 |**Module Name**<br>attachments|
 |**Application Title**<br>Attachments|
-|**Namespace**<br>miyasuta|
+|**Namespace**<br>sumanth|
 |**UI5 Theme**<br>sap_fiori_3|
 |**UI5 Version**<br>Latest|
 |**Enable Telemetry**<br>True|

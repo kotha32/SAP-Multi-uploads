@@ -1,5 +1,5 @@
 <mvc:View
-    controllerName="miyasuta.attachments.controller.App"
+    controllerName="sumanth.attachments.controller.App"
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
     xmlns="sap.m"

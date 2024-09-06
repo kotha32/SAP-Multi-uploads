@@ -1,7 +1,7 @@
 {
     "_version": "1.32.0",
     "sap.app": {
-        "id": "miyasuta.attachments",
+        "id": "sumanth.attachments",
         "type": "application",
         "i18n": "i18n/i18n.properties",
         "applicationVersion": {
@@ -23,7 +23,7 @@
         },
         "crossNavigation": {
             "inbounds": {
-                "miyasuta-attachments-inbound": {
+                "sumanth-attachments-inbound": {
                     "signature": {
                         "parameters": {},
                         "additionalParameters": "allowed"
@@ -56,7 +56,7 @@
     "sap.ui5": {
         "flexEnabled": false,
         "rootView": {
-            "viewName": "miyasuta.attachments.view.App",
+            "viewName": "sumanth.attachments.view.App",
             "type": "XML",
             "async": true,
             "id": "App"
@@ -77,7 +77,7 @@
             "i18n": {
                 "type": "sap.ui.model.resource.ResourceModel",
                 "settings": {
-                    "bundleName": "miyasuta.attachments.i18n.i18n"
+                    "bundleName": "sumanth.attachments.i18n.i18n"
                 }
             },
             "": {
@@ -108,7 +108,7 @@
                 "routerClass": "sap.m.routing.Router",
                 "viewType": "XML",
                 "async": true,
-                "viewPath": "miyasuta.attachments.view",
+                "viewPath": "sumanth.attachments.view",
                 "controlAggregation": "pages",
                 "controlId": "app",
                 "clearControlAggregation": false

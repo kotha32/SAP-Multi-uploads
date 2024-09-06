@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"miyasuta/attachments/model/models"
+	"sumanth/attachments/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("miyasuta.attachments.Component", {
+	return UIComponent.extend("sumanth.attachments.Component", {
 
 		metadata: {
 			manifest: "json"

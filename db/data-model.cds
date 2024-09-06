@@ -1,4 +1,4 @@
-namespace miyasuta.media;
+namespace sumanth.media;
 
 using {
     cuid,

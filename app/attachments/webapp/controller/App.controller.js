@@ -7,7 +7,7 @@ sap.ui.define([
     function (Controller, JSONModel, Item, MessageToast) {
         "use strict";
 
-        return Controller.extend("miyasuta.attachments.controller.App", {
+        return Controller.extend("sumanth.attachments.controller.App", {
             onInit: function () {
                 // Initialize model for Book data
                 var oBookModel = new JSONModel({

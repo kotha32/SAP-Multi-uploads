@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"miyasuta/attachments/controller/App.controller"
+	"sumanth/attachments/controller/App.controller"
 ], function (Controller) {
 	"use strict";
 

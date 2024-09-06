@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "miyasuta.attachments.view.",
+		viewNamespace: "sumanth.attachments.view.",
 		autoWait: true
 	});
 });
