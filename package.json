@@ -1,0 +1,62 @@
+{
+  "name": "media",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4",
+    "lokijs": "^1.5.12"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.124.0",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "cds run",
+    "watch-attachments": "cds watch --open attachments/webapp/index.html#fe-lrop-v4",
+    "watch-ui5-app": "cds watch --open ui5-app/webapp/index.html#fe-lrop-v4",
+    "watch-uploadcollection": "cds watch --open uploadcollection/webapp/index.html#fe-lrop-v4",
+    "watch-books": "cds watch --open books/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "es2020": true,
+      "node": true,
+      "jest": true,
+      "mocha": true
+    },
+    "globals": {
+      "SELECT": true,
+      "INSERT": true,
+      "UPDATE": true,
+      "DELETE": true,
+      "CREATE": true,
+      "DROP": true,
+      "CDL": true,
+      "CQL": true,
+      "CXL": true,
+      "cds": true
+    },
+    "rules": {
+      "no-console": "off",
+      "require-atomic-updates": "off"
+    }
+  },
+  "sapux": [
+    "app/attachments",
+    "app/ui5-app",
+    "app/uploadcollection",
+    "app/books"
+  ],
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql"
+      }
+    }
+  }
+}
